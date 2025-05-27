@@ -1811,7 +1811,6 @@ inputService.InputChanged:connect(function(input)
 	end
 end)
 
-wait(1)
 local VirtualUser=game:service'VirtualUser'
 game:service('Players').LocalPlayer.Idled:connect(function()
 VirtualUser:CaptureController()
